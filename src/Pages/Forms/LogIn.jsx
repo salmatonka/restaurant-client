@@ -3,6 +3,13 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 // import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-simple-captcha';
 const LogIn = () => {
+
+    const handleSubmit = e =>{
+        
+    }
+
+
+
     return (
         <>
         <Helmet>
@@ -15,8 +22,7 @@ const LogIn = () => {
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
                 <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
-                    <form 
-                    // onSubmit={handleLogin}
+                    <form onClick={handleSubmit}
                      className="card-body">
                         <div className="form-control">
                             <label className="label">
